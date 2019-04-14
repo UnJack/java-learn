@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <context:annotation-config/>
+
+    <context:property-placeholder location="classpath:mybatis/spring_mybatis/mybatis.properties"/>
+
+    <context:component-scan base-package="com.java.base.mybatis"/>
+
+    <bean id="dbMaster" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="driverClass" value="${jdbc.driverClass}"></property>
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}"></property>
+        <property name="initialPoolSize" value="${jdbc.initialPoolSize}"></property>
+        <property name="maxPoolSize" value="${jdbc.maxPoolSize}"></property>
+    </bean>
+
+    <bean id="dbSlave" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${jdbc.slave.user}"></property>
+        <property name="password" value="${jdbc.slave.password}"></property>
+        <property name="driverClass" value="${jdbc.slave.driverClass}"></property>
+        <property name="jdbcUrl" value="${jdbc.slave.jdbcUrl}"></property>
+        <property name="initialPoolSize" value="${jdbc.slave.initialPoolSize}"></property>
+        <property name="maxPoolSize" value="${jdbc.slave.maxPoolSize}"></property>
+    </bean>
+
+    <!-- 数据库路由 -->
+    <!--<bean id="dataSource" class="com.java.base.mybatis.annotation.RoutingDataSourceByAnnotation">
+        <property name="targetDataSources">
+            <map key-type="java.lang.String">
+                <entry key="masterKey" value-ref="dbMaster"/>
+                <entry key="slaveKey" value-ref="dbSlave"/>
+            </map>
+        </property>
+        <property name="defaultTargetDataSource" ref="dbMaster"/>
+    </bean>-->
+
+    <!-- 配置sqlSessionFactory -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dbMaster"/>
+        <property name="configLocation" value="classpath:mybatis/spring_mybatis/mybatis-configs.xml"/>
+    </bean>
+
+    <bean id="samplSqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg ref="sqlSessionFactory"/>
+    </bean>
+
+    <!-- 事务管理器,事务操作失败回滚 -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dbMaster"/>
+    </bean>
+
+    <!--  配置事务传播特性 ,事务通知-->
+    <tx:advice id="TestAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            <tx:method name="insert*" propagation="REQUIRED"/>
+            <tx:method name="del*" propagation="REQUIRED"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <bean id="myAdvice" class="com.java.base.mybatis.interceptor.MyAdvice"></bean>
+    <!--  配置aop参与事务的类 -->
+    <aop:config>
+        <!-- 切入点 -->
+        <aop:pointcut id="pointcut" expression="execution(* com.java.base.mybatis.service.*.*(..))"/>
+        <!-- 切面 -->
+        <aop:advisor pointcut-ref="pointcut" advice-ref="TestAdvice"/>
+        <!-- 通知器 -->
+        <aop:aspect ref="myAdvice">
+            <aop:before method="before" pointcut-ref="pointcut"/>
+        </aop:aspect>
+    </aop:config>
+
+    <!-- mybatis接口配置映射器 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="com.java.base.mybatis.mapper"/>
+    </bean>
+
+</beans>

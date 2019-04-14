@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <settings>
+        <setting name="cacheEnabled" value="false"/>
+        <setting name="useGeneratedKeys" value="true"/>
+        <setting name="defaultExecutorType" value="REUSE"/>
+    </settings>
+
+    <mappers>
+        <!--本地包-->
+        <mapper resource="mybatis/spring_mybatis/StudentSqlMap.xml"/>
+        <!--依赖包里边的-->
+        <!--<mapper resource="mybatis/sqlmap/xx.xml"/>-->
+
+    </mappers>
+</configuration>

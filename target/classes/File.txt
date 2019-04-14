@@ -1,0 +1,95 @@
+Java基础
+	Java集合框架(List、Set、Map)、
+	多线程同步锁（synchronized、Lock--ReentrantLock、ReentrantReadWriteLock)
+	Lock基于硬件原语指令CAS（compare and swap）实现，参考 http://huangyunbin.iteye.com/blog/1942369
+	NIO,http://blog.csdn.net/jay900323/article/details/18141217
+	http://developer.51cto.com/art/201403/432095.htm
+
+JVM性能调优
+http://pengjiaheng.iteye.com/blog/518623
+http://blog.csdn.net/zhoutao198712/article/details/7783038
+
+常用设计模式：
+	单例模式、工厂模式（简单工厂、工厂方法、抽象工厂）、代理模式（静态代理，动态代理）、门面模式、命令模式、观察者模式、策略模式
+	
+面向对象设计原则：参考 http://blog.csdn.net/luxiaoxun/article/details/8041885
+	
+
+数据库
+	SQL调优，查看执行计划
+	分区、分表、分库
+
+NOSQL数据库
+	redis mongodb memcache 参考 http://www.cnblogs.com/94cool/p/3247307.html
+
+负载均衡 
+	具备相关功能的产品F5、Haproxy、LVS、Nginx、Apache等
+	http://baidutech.blog.51cto.com/4114344/1033718/
+	http://blog.csdn.net/caoshuming_500/article/details/7337802
+	http://www.cnblogs.com/dkblog/archive/2011/07/06/2098949.html
+	TCP/IP三次握手、四次挥手
+
+Spring的AOP和IOC
+Hibernate、Mybatis
+Struts2、SpringMVC
+	
+消息队列
+	ActiveMQ、ZeroMQ、RabbitMQ
+
+Java RMI与RPC，JMS的比较，参考 http://blog.csdn.net/keda8997110/article/details/8259430
+
+webservice概念，SOAP Webservice和RESTful Webservice区别
+
+webServer：apache  lighttpd  nginx
+appServer：tomcat  jboss resin Jboss Weblogic
+
+算法：
+	冒泡排序、快速排序、堆排序、一致性哈希算法、一致性算法（paxos）
+
+数据结构：
+	平衡二叉树、红黑树、B树
+
+全文检索
+	Lucene、Nutch、Solr
+
+并行计算框架
+	Storm（流式实时处理）、 Hadoop（批量处理）、Spark
+
+LevelDb
+
+neo4j
+http://blog.jobbole.com/98965/
+
+
+hadoop
+学习：http://www.chuanke.com///?mod=student&act=study&courseid=155779
+环境：
+http://www.open-open.com/lib/view/open1435761287778.html
+redis
+http://www.chuanke.com///?mod=student&act=study&courseid=166227
+reids 搭建环境:
+http://www.cnblogs.com/kreo/p/4399612.html
+
+[root@localhost src]# ./redis-trib.rb create --replicas 1 192.168.1.112:7001 192.168.1.112:7002 192.168.1.112:7003 192.168.1.112:7004 192.168.1.112:7005 192.168.1.112:7006
+
+
+activemq
+http://www.java1234.com/a/yuanchuang/jms/2015/0619/4440.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

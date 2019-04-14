@@ -1,0 +1,1 @@
+RabbitMQ是一个由erlang开发的AMQP（Advanced Message Queue ）的开源实现
