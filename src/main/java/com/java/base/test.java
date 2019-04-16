@@ -9,9 +9,9 @@ import java.util.Arrays;
 public class test {
     public static void main(String[] args) {
 
-        int[] i = {333,2,1,123,55,11,3331};
+        int[] i = {333, 2, 1, 123, 55, 11, 3331};
         Arrays.sort(i);
-        for (int i1=0;i1<i.length;i1++) {
+        for (int i1 = 0; i1 < i.length; i1++) {
             System.out.println(i1);
         }
     }

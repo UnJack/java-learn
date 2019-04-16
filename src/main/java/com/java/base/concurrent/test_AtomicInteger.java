@@ -6,12 +6,9 @@ import java.util.concurrent.atomic.AtomicStampedReference;
 /**
  * User: jianjie
  * Date: 16-5-4 下午6:34
- * http://blog.hesey.net/2011/09/resolve-aba-by-atomicstampedreference.html
  */
 public class test_AtomicInteger {
-
     public static void main(String[] args) {
-
         AtomicStampedReference atomicStampedReference = new AtomicStampedReference(100, 1);
         System.out.println(atomicStampedReference.compareAndSet(100, 101, 1, 3));
         System.out.println(atomicStampedReference.getStamp());
