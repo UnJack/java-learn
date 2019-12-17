@@ -9,19 +9,15 @@ import java.util.concurrent.CountDownLatch;
  */
 public class test_CountDownLatch1 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         CountDownLatch doneSignal = new CountDownLatch(10);
         CountDownLatch startSignal = new CountDownLatch(1);
 
         for (int i = 0; i < 10; i++) {
             new Thread(new Worker(i, doneSignal, startSignal)).start();
         }
-        try {
-            startSignal.countDown();
-            doneSignal.await();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        startSignal.countDown();
+        doneSignal.await();
         System.out.println(" 百米大战开始...");
     }
 
@@ -41,7 +37,7 @@ public class test_CountDownLatch1 {
                 startSignal.await();
                 Thread.sleep(new Random().nextInt(10000));
                 System.out.println(i + " 号选手准备就绪");
-            } catch (InterruptedException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             } finally {
                 doneSignal.countDown();

@@ -2,6 +2,7 @@ package com.java.base.concurrent.thread_pool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.SynchronousQueue;
 
 /**
  * User: jianjie
@@ -9,7 +10,7 @@ import java.util.concurrent.Executors;
  */
 public class test_newCachedThreadPool {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
         for (int i = 0; i < 10; i++) {
             final int index = i;
@@ -20,10 +21,33 @@ public class test_newCachedThreadPool {
             }
             cachedThreadPool.execute(new Runnable() {
                 public void run() {
-                    System.out.println(Thread.currentThread().getName() +" "+ index);
+                    System.out.println(Thread.currentThread().getName() + " " + index);
                 }
             });
         }
         cachedThreadPool.shutdown();
+        /**
+         * 缓存线程池的队列
+         */
+//        SynchronousQueue synchronousQueue = new SynchronousQueue();
+//        Thread thread = new Thread(() -> {
+//            try {
+//                synchronousQueue.put("asd");
+//                synchronousQueue.put("asd1");
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        });
+//        thread.start();
+//        Thread.sleep(5000);
+//
+//        Thread thread1 = new Thread(() -> {
+//            try {
+//                System.out.println(synchronousQueue.take());
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        });
+//        thread1.start();
     }
 }

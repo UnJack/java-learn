@@ -3,7 +3,14 @@ package com.java.base.jvm;
 /**
  * User: jianjie
  * Date: 15-12-23 下午4:05
- * -Xss128k
+ * -verbose:gc
+ * -Xss160k
+ * -XX:+PrintGCDetails
+ * -XX:+HeapDumpOnOutOfMemoryError
+ * -Xloggc:/Users/jianjie/gc.log
+ * -XX:+UseGCLogFileRotation
+ * -XX:NumberOfGClogFiles=10
+ * -XX:GCLogFileSize=100M
  * 栈溢出
  */
 public class test_StackOverflowError {

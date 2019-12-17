@@ -21,8 +21,8 @@ public class test_Queue {
             linkBlockingQueue.offer(i);
         }
 
-        for (Integer integer : linkBlockingQueue)
-            System.out.println(integer);
+//        for (Integer integer : linkBlockingQueue)
+//            System.out.println(integer);
 
         //出队列
 //        linkBlockingQueue.poll();
