@@ -8,6 +8,9 @@ import java.util.concurrent.Executors;
 /**
  * User: jianjie
  * Date: 16-3-24 上午10:48
+ * 适用于一起开始的业务场景：
+ * 强调n个线程，大家相互等待，都完成了才继续执行
+ * 多线程计算》合并计算的场景
  */
 public class test_CyclicBarrier {
 

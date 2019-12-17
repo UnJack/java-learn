@@ -14,6 +14,9 @@ import java.util.concurrent.Semaphore;
  * 该差异具体的体现在，它们的tryAcquireShared()函数的实现不同。
  * 信号量:1.公平信号量，2非公平信号量
  * 默认是非公平信号量
+ *
+ * 一般用于控制同时访问特定资源的线程数量
+ * 并发上限流量控制
  */
 public class test_Semaphore {
     public static void main(String[] args) {
