@@ -4,12 +4,14 @@ package com.java.base.arithmatic;
  * Created by JianJie on 2017/3/18.
  * 判断素数
  */
-public class test_Prime {
+public class test_prime {
 
     public static void main(String[] args) {
-        for (int i = 0; i < 100; i++)
-            if (isPrime(i))
+        for (int i = 0; i < 100; i++) {
+            if (isPrime(i)) {
                 System.out.println(i);
+            }
+        }
     }
 
     public static boolean isPrime(int a) {
