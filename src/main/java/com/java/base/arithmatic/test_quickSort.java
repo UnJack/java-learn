@@ -6,35 +6,34 @@ package com.java.base.arithmatic;
  */
 public class test_quickSort {
     public static void main(String[] args) {
-        int a[] = {3, 1, 5, 7, 2, 4, 9, 6, 10, 8};
-        sort(a, 0, a.length - 1);
-
-        for (Integer i : a)
-            System.out.println(i);
+        int arr[] = {3, 1, 5, 7, 2, 4, 9, 6, 10, 8};
+        sort(arr, 0, arr.length - 1);
+        for (Integer i : arr)
+            System.out.print(i + " ");
     }
 
-    public static int partition(int[] array, int low, int high) {
-        int key = array[low];
-        while (low < high) {
-            while (array[high] >= key && high > low) {//从后半部分向前扫描
-                high--;
-            }
-            array[low] = array[high];
-            while (array[low] <= key && high > low) {//从前半部分向后扫描
-                low++;
-            }
-            array[high] = array[low];
-        }
-        array[high] = key;
-        return high;
-    }
-
-    public static void sort(int[] array, int low, int high) {
-        if (low >= high) {
+    public static void sort(int[] arr, int l, int r) {
+        if (l > r) {
             return;
         }
-        int index = partition(array, low, high);
-        sort(array, low, index - 1);
-        sort(array, index + 1, high);
+        int i = l, j = r, x = arr[l];
+        while (i < j) {
+            while (i < j && arr[j] >= x) {
+                j--;
+            }
+            if (i < j) {
+                arr[i++] = arr[j];
+            }
+            while (i < j && arr[i] < x) {
+                i++;
+            }
+            if (i < j) {
+                arr[j--] = arr[i];
+            }
+        }
+        arr[i] = x;
+        sort(arr, l, i - 1);
+        sort(arr, i + 1, r);
     }
+
 }

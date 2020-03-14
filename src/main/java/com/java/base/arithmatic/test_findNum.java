@@ -8,23 +8,28 @@ import java.util.*;
  */
 public class test_findNum {
     public static void main(String[] args) {
-        int[] a = {55, 50, 99, 80, 1, 30, 70};
-        Arrays.sort(a);
-        findSumTo100(a, a.length);
-        System.out.println(sum(a, 100));
+        int[] arr = {55, 50, 99, 80, 1, 30, 70};
+        Arrays.sort(arr);
+        for (Integer integer : arr) {
+            System.out.print(integer + " ");
+        }
+        //方法一
+        findTag(arr, 100);
+        //方法二
+        System.out.println(sum(arr, 100));
     }
 
-    public static void findSumTo100(int a[], int n) {
-        for (int i = 0, j = n - 1; i != j; ) {
-            int num = a[i] + a[j];
-            if (num == 100) {
-                System.out.println(a[i] + "," + a[j]);
-                i++;
+    public static void findTag(int[] arr, int tag) {
+        int i = 0;
+        int j = arr.length - 1;
+        while (i < j) {
+            if (arr[i] + arr[j] > tag) {
                 j--;
-            } else if (num < 100) {
+            } else if (arr[i] + arr[j] < tag) {
                 i++;
-            } else if (num > 100) {
-                j--;
+            } else {
+                System.out.println("index =" + i + " ,index =" + j);
+                break;
             }
         }
     }

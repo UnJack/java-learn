@@ -1,7 +1,8 @@
-package com.java.base.arithmatic;
+package com.java.base.data_structure;
 
 /**
  * Created by JianJie on 2017/6/27.
+ * 数组实现栈
  */
 public class test_Stack {
     public static void main(String[] args) {
