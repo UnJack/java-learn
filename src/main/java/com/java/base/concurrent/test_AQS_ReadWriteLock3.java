@@ -10,13 +10,13 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * Date: 16-3-31 下午3:30
  * 读写锁的机制：读-读"不互斥,读-写"互斥,写-写"互斥
  */
-public class test_Lock_ReadWriteLock3 {
+public class test_AQS_ReadWriteLock3 {
 
-    private Map<String, Object> map = new HashMap<String, Object>();//缓存器
+    private Map<String, Object> map = new HashMap();//缓存器
     private ReadWriteLock rwl = new ReentrantReadWriteLock();
 
     public static void main(String[] args) {
-        test_Lock_ReadWriteLock3 t = new test_Lock_ReadWriteLock3();
+        test_AQS_ReadWriteLock3 t = new test_AQS_ReadWriteLock3();
         System.out.println(t.get1("123"));
     }
 

@@ -7,6 +7,7 @@ import java.util.concurrent.SynchronousQueue;
 /**
  * User: jianjie
  * Date: 16-3-31 下午6:33
+ * 适用于：执行周期较短的场景，不然内存会被打满
  */
 public class test_newCachedThreadPool {
 

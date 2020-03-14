@@ -8,6 +8,7 @@ import java.util.concurrent.Executors;
  * Date: 16-5-20 下午10:50
  * 创建一个单线程化的线程池，它只会用唯一的工作线程来执行任务，
  * 保证所有任务按照指定顺序(FIFO, LIFO, 优先级)执行。
+ * 适用于：对执行顺序有有要求对场景
  */
 public class test_newSingleThreadExecutor {
 

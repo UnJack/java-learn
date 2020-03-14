@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * User: jianjie
  * Date: 16-3-31 下午2:18
  */
-public class test_Lock_ReadWriteLock2 {
+public class test_AQS_ReadWriteLock2 {
 
     //多个读锁不互斥，读锁与写锁互斥，这是由jvm自己控制。
     public static void main(String[] args) {

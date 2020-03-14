@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * Date: 16-3-31 下午3:03
  * 适用于高度取频率，低写入频率的业务常见
  */
-public class test_Lock_ReadWriteLock1 {
+public class test_AQS_ReadWriteLock1 {
 
     public static void main(String[] args) {
         final ReadWriteLockMap lockMap = new ReadWriteLockMap();

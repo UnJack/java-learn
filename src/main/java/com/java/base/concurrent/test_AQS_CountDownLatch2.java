@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
  * User: jianjie
  * Date: 16-7-7 下午4:11
  */
-public class test_CountDownLatch2 {
+public class test_AQS_CountDownLatch2 {
 
     private static CountDownLatch countDownLatch = new CountDownLatch(2);
 

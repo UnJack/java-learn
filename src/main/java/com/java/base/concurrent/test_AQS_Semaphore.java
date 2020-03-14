@@ -3,6 +3,7 @@ package com.java.base.concurrent;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
+
 /**
  * User: jianjie
  * Date: 16-3-25 下午5:34
@@ -14,29 +15,26 @@ import java.util.concurrent.Semaphore;
  * 该差异具体的体现在，它们的tryAcquireShared()函数的实现不同。
  * 信号量:1.公平信号量，2非公平信号量
  * 默认是非公平信号量
- *
+ * <p>
  * 一般用于控制同时访问特定资源的线程数量
  * 并发上限流量控制
  */
-public class test_Semaphore {
+public class test_AQS_Semaphore {
     public static void main(String[] args) {
         ExecutorService service = Executors.newCachedThreadPool();
         final Semaphore semaphore = new Semaphore(5);
         for (int i = 0; i < 15; i++) {
             final int finalI = i;
-            Thread thread = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    try {
-                        //获取信号
-                        semaphore.acquire();
-                        System.out.println(finalI);
-                        Thread.sleep(2000);
-                        //释放信号
-                        semaphore.release();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+            Thread thread = new Thread(() -> {
+                try {
+                    //获取信号
+                    semaphore.acquire();
+                    System.out.println(finalI);
+                    Thread.sleep(2000);
+                    //释放信号
+                    semaphore.release();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             });
             service.execute(thread);

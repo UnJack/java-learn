@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * http://www.cnblogs.com/maypattis/p/6403682.html
  * https://segmentfault.com/a/1190000008471362
  */
-public class test_Lock_ReentrantLock_Condition {
+public class test_AQS_ReentrantLock_Condition {
 
     public static void main(String[] args) {
         myThread m = new myThread();

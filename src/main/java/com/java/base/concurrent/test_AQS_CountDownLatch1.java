@@ -9,7 +9,7 @@ import java.util.concurrent.CountDownLatch;
  * 适用于等待结束的业务场景：
  * 一个线程等待另外n个线程完成某件事后才继续执行
  */
-public class test_CountDownLatch1 {
+public class test_AQS_CountDownLatch1 {
 
     public static void main(String[] args) throws InterruptedException {
         CountDownLatch doneSignal = new CountDownLatch(10);
