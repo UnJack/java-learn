@@ -6,7 +6,7 @@ import javax.jms.*;
 import java.util.UUID;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-4-20 下午4:26
  */
 public class Producer {

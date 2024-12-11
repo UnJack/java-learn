@@ -1,7 +1,7 @@
 package com.java.base.concurrent;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-13 下午6:47
  * 守护进程demo
  */

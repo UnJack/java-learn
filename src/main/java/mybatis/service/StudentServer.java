@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-5-17 下午6:35
  */
 public interface StudentServer {

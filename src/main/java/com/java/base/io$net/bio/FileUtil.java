@@ -1,7 +1,7 @@
 package com.java.base.io$net.bio;
 
 /**
- * Created by JianJie on 15/5/10.
+ * Created by jimjian on 15/5/10.
  */
 public abstract class FileUtil {
     //输出流文件路径

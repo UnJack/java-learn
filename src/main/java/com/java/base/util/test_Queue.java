@@ -5,7 +5,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-7-20 下午5:53
  */
 public class test_Queue {

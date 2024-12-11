@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-2-2
  * Time: 下午3:12
  */

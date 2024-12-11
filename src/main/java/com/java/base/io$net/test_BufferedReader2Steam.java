@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.stream.Collectors;
 
 /**
- * Created by jianjie on 2019-05-03.
+ * Created by jimjian on 2019-05-03.
  * 文件流转Stream
  */
 public class test_BufferedReader2Steam {

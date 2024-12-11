@@ -1,7 +1,7 @@
 package com.java.base.data_structure;
 
 /**
- * Created by jianjie on 2017/7/27.
+ * Created by jimjian on 2017/7/27.
  */
 public class test_DoubleLinkList {
 

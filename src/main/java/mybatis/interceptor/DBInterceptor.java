@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by jianjie on 2017/8/22.
+ * Created by jimjian on 2017/8/22.
  */
 public class DBInterceptor implements HandlerInterceptor {
     @Override

@@ -1,7 +1,7 @@
 package com.java.base.instrumentation.agentmain.demo2;
 
 /**
- * @create by jianjie on 2017/11/14 11:11
+ * @create by jimjian on 2017/11/14 11:11
  **/
 public class TestMainInJar {
     public static void main(String[] args) throws InterruptedException {

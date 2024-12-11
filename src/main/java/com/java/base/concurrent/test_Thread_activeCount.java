@@ -1,7 +1,7 @@
 package com.java.base.concurrent;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-31 上午11:56
  */
 public class test_Thread_activeCount {

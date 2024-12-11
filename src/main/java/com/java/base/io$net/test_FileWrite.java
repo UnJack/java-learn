@@ -3,7 +3,7 @@ package com.java.base.io$net;
 import java.io.*;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-5-15 上午11:30
  */
 public class test_FileWrite {

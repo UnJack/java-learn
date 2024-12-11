@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 /**
- * Created by JianJie on 15/5/1.
+ * Created by jimjian on 15/5/1.
  */
 public class test_BufferedReader extends FileUtil {
     private BufferedReader bufferedReader = null;

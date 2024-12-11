@@ -1,7 +1,7 @@
 package com.java.base.lang;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-7-28 上午10:42
  */
 public class test_Integer {

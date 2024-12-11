@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-4-28 下午12:20
  * 线程监控
  */

@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 /**
- * Created by jianjie on 2017/8/1.
+ * Created by jimjian on 2017/8/1.
  * https://www.rabbitmq.com/getstarted.html
  */
 public class RabbitProducer {

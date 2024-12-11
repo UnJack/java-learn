@@ -5,7 +5,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 15-12-18 Time: 下午1:10
  * http://www.cnblogs.com/maypattis/p/6403682.html
  * https://segmentfault.com/a/1190000008471362

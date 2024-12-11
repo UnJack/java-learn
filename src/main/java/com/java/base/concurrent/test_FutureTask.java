@@ -3,7 +3,7 @@ package com.java.base.concurrent;
 import java.util.concurrent.*;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-2-2 Time: 下午3:18
  */
 public class test_FutureTask {

@@ -11,7 +11,7 @@ public class test_compilerapi5 {
     public static void main(String[] args) throws IOException {
         JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
         StandardJavaFileManager standardJavaFileManage = compiler.getStandardFileManager(null, null, null);
-        Iterable<? extends JavaFileObject> files = standardJavaFileManage.getJavaFileObjectsFromStrings(Arrays.asList("/Users/jianjie/itest/iGithub/Java/test.java"));
+        Iterable<? extends JavaFileObject> files = standardJavaFileManage.getJavaFileObjectsFromStrings(Arrays.asList("/Users/jimjian/itest/iGithub/Java/test.java"));
         DiagnosticCollector<JavaFileObject> collector = new DiagnosticCollector();
         JavaCompiler.CompilationTask compilationTask = compiler.getTask(null, standardJavaFileManage, collector, null, null, files);
         Boolean result = compilationTask.call();
@@ -42,7 +42,7 @@ public class test_compilerapi5 {
     }
 
     private static void printErrorCode(int targetLine) throws IOException {
-        InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream("/Users/jianjie/itest/iGithub/Java/test.java"));
+        InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream("/Users/jimjian/itest/iGithub/Java/test.java"));
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         String sline;
         for (int line = 1; (sline = bufferedReader.readLine()) != null; line++) {

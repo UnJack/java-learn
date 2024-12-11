@@ -1,7 +1,7 @@
 package com.java.base.concurrent.queue;
 
 /**
- * Created by jianjie on 2020-01-01.
+ * Created by jimjian on 2020-01-01.
  */
 public class test_ArrayBlockingQueue {
     public static void main(String[] args) {

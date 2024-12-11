@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-23 下午5:11
  */
 public interface StudentMapper {

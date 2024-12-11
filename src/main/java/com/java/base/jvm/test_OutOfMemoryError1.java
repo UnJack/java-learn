@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-17 Time: 下午4:26
  * -verbose:gc
  * -Xms2M
@@ -12,7 +12,7 @@ import java.util.List;
  * -XX:+PrintGCDetails
  * -XX:+HeapDumpOnOutOfMemoryError
  * -XX:HeapDumpPath=/opt/dump
- * -Xloggc:/Users/jianjie/gc.log
+ * -Xloggc:/Users/jimjian/gc.log
  * -XX:+UseGCLogFileRotation
  * -XX:NumberOfGClogFiles=10
  * -XX:GCLogFileSize=100M

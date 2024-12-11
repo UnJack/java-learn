@@ -3,7 +3,7 @@ package com.java.base.jvm;
 import java.util.ArrayList;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-8-8 下午3:52
  * 测试消耗CPU的资源。
  * jstack pid|grep -A [pid的16进制]

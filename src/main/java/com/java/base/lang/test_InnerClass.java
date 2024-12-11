@@ -1,7 +1,7 @@
 package com.java.base.lang;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-18 下午4:57
  * 内部类
  */

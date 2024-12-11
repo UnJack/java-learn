@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.io.IOException;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-10 Time: 上午10:31
  */
 public class ServerTest {

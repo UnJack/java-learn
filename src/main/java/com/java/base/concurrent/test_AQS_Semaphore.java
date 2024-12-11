@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-25 下午5:34
  * 详细介绍:http://blog.csdn.net/coslay/article/details/45176063
  * “公平信号量”和”非公平信号量”的释放信号量的机制是一样的！

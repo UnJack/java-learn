@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- * Created by JianJie on 15/5/24.
+ * Created by jimjian on 15/5/24.
  */
 public class OutputStreamUtil extends test_FileUtil {
 

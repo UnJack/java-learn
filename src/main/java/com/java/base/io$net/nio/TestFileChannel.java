@@ -10,7 +10,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- * Created by JianJie on 15/7/15.
+ * Created by jimjian on 15/7/15.
  */
 public class TestFileChannel extends FileUtil {
 

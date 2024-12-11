@@ -1,7 +1,7 @@
 package com.java.base.concurrent;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 15-12-23 下午5:31
  * ++运算是不支持并发的
  * 内存级的重排序会使程序的行为变得不可预测

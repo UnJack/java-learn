@@ -1,7 +1,7 @@
 package com.java.base.exception;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-11-30 下午10:22
  */
 public class BaseException extends RuntimeException {

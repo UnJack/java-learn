@@ -1,7 +1,7 @@
 package com.java.base.concurrent;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date 2018/11/17 12:04 PM
  */
 public class test_Volatile3 {

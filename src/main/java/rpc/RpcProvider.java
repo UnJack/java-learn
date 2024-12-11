@@ -4,7 +4,7 @@ import rpc.service.HelloService;
 import rpc.service.HelloServiceImpl;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-5-3 上午11:14
  * 服务发布者
  */

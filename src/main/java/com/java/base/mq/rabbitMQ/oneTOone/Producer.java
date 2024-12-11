@@ -4,7 +4,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.Channel;
 /**
- * Created by jianjie on 2017/8/1.
+ * Created by jimjian on 2017/8/1.
  */
 public class Producer {
 

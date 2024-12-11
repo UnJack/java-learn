@@ -5,7 +5,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-21 下午6:49
  */
 public class JServer {

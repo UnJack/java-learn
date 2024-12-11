@@ -10,7 +10,7 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-21 下午6:20
  * http://ifeve.com/overview/
  */

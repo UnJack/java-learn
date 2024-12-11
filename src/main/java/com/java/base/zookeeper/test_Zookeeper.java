@@ -7,7 +7,7 @@ import org.junit.Test;
 import java.io.IOException;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-11下午3:31
  */
 public class test_Zookeeper {

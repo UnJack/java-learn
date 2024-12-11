@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-4-8 下午4:24
  */
 public class test_Mybatis {

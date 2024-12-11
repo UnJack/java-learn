@@ -9,7 +9,7 @@ import java.util.concurrent.ForkJoinTask;
 import static junit.framework.Assert.assertEquals;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-29 下午5:47
  */
 public class test_ForkJoinPool {

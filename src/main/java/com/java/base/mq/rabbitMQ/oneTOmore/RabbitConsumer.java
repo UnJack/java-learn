@@ -5,7 +5,7 @@ import com.rabbitmq.client.*;
 import java.io.IOException;
 
 /**
- * Created by jianjie on 2017/8/1.
+ * Created by jimjian on 2017/8/1.
  */
 public class RabbitConsumer {
     private static final String QUEUE_NAME = "one_TO_more";

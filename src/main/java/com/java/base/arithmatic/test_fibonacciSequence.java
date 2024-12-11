@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by jianjie on 2020-03-15.
+ * Created by jimjian on 2020-03-15.
  * 斐波那契
  */
 public class test_fibonacciSequence {

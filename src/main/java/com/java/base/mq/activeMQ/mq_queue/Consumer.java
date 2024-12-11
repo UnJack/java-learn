@@ -10,7 +10,7 @@ import javax.jms.TextMessage;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-4-20 下午5:16
  */
 public class Consumer implements Runnable {

@@ -3,7 +3,7 @@ package com.java.base.jvm;
 import java.util.Random;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-8-8 下午4:25
  * 测试sy(内核线程处理所占的百分比)高的情况
  */

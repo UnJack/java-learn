@@ -21,4 +21,4 @@ Archiver-Version: Plexus Archiver
 Main-Class: agent.TimeTest
 Can-Redefine-Classes: true
 
-D:\com>java -javaagent:ssit.jar=jianjie -jar time.jar
+D:\com>java -javaagent:ssit.jar=jimjian -jar time.jar

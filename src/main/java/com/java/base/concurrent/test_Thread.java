@@ -3,7 +3,7 @@ package com.java.base.concurrent;
 import org.junit.Test;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-17 下午4:53
  */
 public class test_Thread {

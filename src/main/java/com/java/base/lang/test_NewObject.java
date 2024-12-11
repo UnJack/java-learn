@@ -5,7 +5,7 @@ import com.java.base.lang.domain.Person;
 import java.io.*;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-7-13 上午10:38
  * 四种创建对象的方法
  */

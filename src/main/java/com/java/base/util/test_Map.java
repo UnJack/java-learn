@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-8-3 下午5:38
  * 对象作为key，equals,hashCode重写
  * 因为所有的对象父类都是Object

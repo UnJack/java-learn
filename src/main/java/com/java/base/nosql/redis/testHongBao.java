@@ -8,7 +8,7 @@ import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-18 下午4:57
  * http://www.importnew.com/19117.html
  */

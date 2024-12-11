@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-31 下午3:03
  * 适用于高度取频率，低写入频率的业务常见
  */

@@ -12,7 +12,7 @@ import java.util.Random;
 import java.util.UUID;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-5-17 下午6:35
  */
 @Service("studentServer")

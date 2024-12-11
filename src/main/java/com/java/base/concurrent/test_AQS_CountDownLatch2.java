@@ -3,7 +3,7 @@ package com.java.base.concurrent;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-7-7 下午4:11
  */
 public class test_AQS_CountDownLatch2 {

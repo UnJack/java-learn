@@ -3,7 +3,7 @@ package com.java.base.arithmatic;
 import java.util.*;
 
 /**
- * Created by jianjie on 2017/8/1.
+ * Created by jimjian on 2017/8/1.
  * 两个数相加等于目标值
  */
 public class test_findNum {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-4-28 上午11:52
  * -verbose:gc -Xms100M -Xmx100M -XX:+UseSerialGC
  * 内存监控

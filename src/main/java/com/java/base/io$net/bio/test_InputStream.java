@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Created by JianJie on 15/5/10.
+ * Created by jimjian on 15/5/10.
  */
 public class test_InputStream extends FileUtil {
     private InputStream inputStream = null;

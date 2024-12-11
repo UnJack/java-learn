@@ -11,7 +11,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-16 下午3:13
  */
 public class DubboRpc {

@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 
 /**
- * Created by jianjie on 2017/9/11.
+ * Created by jimjian on 2017/9/11.
  */
 public class test_CtClass {
     public static void main(String[] args) throws Exception{

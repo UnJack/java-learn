@@ -1,13 +1,13 @@
 package com.java.base.jvm;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 15-12-23 下午4:05
  * -verbose:gc
  * -Xss160k
  * -XX:+PrintGCDetails
  * -XX:+HeapDumpOnOutOfMemoryError
- * -Xloggc:/Users/jianjie/gc.log
+ * -Xloggc:/Users/jimjian/gc.log
  * -XX:+UseGCLogFileRotation
  * -XX:NumberOfGClogFiles=10
  * -XX:GCLogFileSize=100M

@@ -1,7 +1,7 @@
 package rpc.service;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-5-3 上午11:13
  */
 public interface HelloService {

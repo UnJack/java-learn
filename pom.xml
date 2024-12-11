@@ -4,9 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jianjie.java</groupId>
+    <groupId>org.learn.java</groupId>
     <artifactId>base</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>learn-design-pattern</module>
+        <module>learn-leetcode</module>
+    </modules>
 
     <properties>
         <!-- spring版本号 -->
@@ -283,7 +288,7 @@
                         <manifest>
                             <!--<addClassPath>true</addClassPath>-->
                             <classpathPrefix>
-                                /Users/jianjie/workerspace/iGithub/Java/src/main/java/META-INF
+                                /Users/jimjian/workerspace/iGithub/Java/src/main/java/META-INF
                             </classpathPrefix>
                         </manifest>
                         <manifestEntries>

@@ -1,7 +1,7 @@
 package com.java.base.io$net;
 
 /**
- * Created by JianJie on 15/5/10.
+ * Created by jimjian on 15/5/10.
  */
 public abstract class test_FileUtil {
     //输入流文件路径

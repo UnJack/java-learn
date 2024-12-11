@@ -1,7 +1,7 @@
 package com.java.base.concurrent;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-7-28 上午10:24
  */
 public class test_Thread_yield implements Runnable {

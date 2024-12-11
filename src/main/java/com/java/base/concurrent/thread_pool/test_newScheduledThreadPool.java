@@ -6,7 +6,7 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-25 上午11:44
  */
 public class test_newScheduledThreadPool {

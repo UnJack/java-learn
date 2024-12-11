@@ -10,7 +10,7 @@ import java.util.Random;
 import java.util.UUID;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-12 下午3:53
  */
 public class test_JDBC {

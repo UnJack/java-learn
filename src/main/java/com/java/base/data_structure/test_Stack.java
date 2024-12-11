@@ -1,7 +1,7 @@
 package com.java.base.data_structure;
 
 /**
- * Created by JianJie on 2017/6/27.
+ * Created by jimjian on 2017/6/27.
  * 数组实现栈
  */
 public class test_Stack {

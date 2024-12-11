@@ -3,7 +3,7 @@ package com.java.base.concurrent.queue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * Created by jianjie on 2020-01-01.
+ * Created by jimjian on 2020-01-01.
  */
 public class test_LinkedBlockingQueue {
 

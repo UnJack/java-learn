@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-31 下午3:30
  * 读写锁的机制：读-读"不互斥,读-写"互斥,写-写"互斥
  */

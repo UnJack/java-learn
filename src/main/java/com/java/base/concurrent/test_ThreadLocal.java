@@ -3,7 +3,7 @@ package com.java.base.concurrent;
 import java.sql.*;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-2 下午6:23
  */
 public class test_ThreadLocal {

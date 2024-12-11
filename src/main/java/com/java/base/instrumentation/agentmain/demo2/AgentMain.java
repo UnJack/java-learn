@@ -3,7 +3,7 @@ package com.java.base.instrumentation.agentmain.demo2;
 import java.lang.instrument.Instrumentation;
 import java.lang.instrument.UnmodifiableClassException;
 /**
- * @create by jianjie on 2017/11/14 11:09
+ * @create by jimjian on 2017/11/14 11:09
  **/
 public class AgentMain {
     public static void agentmain(String agentArgs, Instrumentation inst) {

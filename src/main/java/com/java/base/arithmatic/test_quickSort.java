@@ -1,7 +1,7 @@
 package com.java.base.arithmatic;
 
 /**
- * Created by jianjie on 2017/8/7.
+ * Created by jimjian on 2017/8/7.
  * 快速排序
  */
 public class test_quickSort {

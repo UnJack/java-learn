@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicStampedReference;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-5-4 下午6:34
  */
 public class test_AtomicInteger {

@@ -10,7 +10,7 @@ import java.lang.management.ManagementFactory;
 import java.net.Socket;
 
 /**
- * @create by jianjie on 2017/11/12 12:27
+ * @create by jimjian on 2017/11/12 12:27
  * jdk 1.8
  **/
 public class RunAttach {
@@ -26,7 +26,7 @@ public class RunAttach {
         VirtualMachine vm = VirtualMachine.attach(pid());
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("name=简杰,age=25,port=").append(port);
-        vm.loadAgent("/Users/jianjie/itest/java/instrumentation/agentmain/AgentAfterMain.jar", stringBuilder.toString());
+        vm.loadAgent("/Users/jimjian/itest/java/instrumentation/agentmain/AgentAfterMain.jar", stringBuilder.toString());
     }
 
     private static String pid() {

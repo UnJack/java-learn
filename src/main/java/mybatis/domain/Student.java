@@ -3,7 +3,7 @@ package mybatis.domain;
 import java.util.Date;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-23 下午5:09
  */
 public class Student {

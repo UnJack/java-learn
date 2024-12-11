@@ -6,7 +6,7 @@ import com.sun.tools.attach.VirtualMachineDescriptor;
 import java.util.List;
 
 /**
- * @create by jianjie on 2017/11/14 11:07
+ * @create by jimjian on 2017/11/14 11:07
  **/
 public class AttachThread extends Thread {
 
@@ -49,7 +49,7 @@ public class AttachThread extends Thread {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        new AttachThread("/Users/jianjie/itest/java/instrumentation/agentmain/demo2/AgentMain.jar", VirtualMachine.list()).start();
+        new AttachThread("/Users/jimjian/itest/java/instrumentation/agentmain/demo2/AgentMain.jar", VirtualMachine.list()).start();
 
     }
 }

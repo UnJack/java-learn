@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.SynchronousQueue;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-31 下午6:33
  * 适用于：执行周期较短的场景，不然内存会被打满
  */

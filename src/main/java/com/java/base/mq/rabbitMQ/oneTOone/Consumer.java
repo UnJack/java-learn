@@ -5,7 +5,7 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.QueueingConsumer;
 /**
- * Created by jianjie on 2017/8/1.
+ * Created by jimjian on 2017/8/1.
  */
 public class Consumer {
 

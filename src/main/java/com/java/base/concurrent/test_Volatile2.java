@@ -1,7 +1,7 @@
 package com.java.base.concurrent;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-4-5 上午10:38
  * volatile防止指令重排序
  */

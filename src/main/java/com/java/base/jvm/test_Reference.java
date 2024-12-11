@@ -6,7 +6,7 @@ import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-13 上午10:37
  * 四种引用类型
  */

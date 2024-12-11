@@ -3,7 +3,7 @@ package com.java.base.io$net.bio;
 import java.io.*;
 
 /**
- * Created by JianJie on 15/5/10.
+ * Created by jimjian on 15/5/10.
  */
 public class test_BufferedWriter extends FileUtil {
     private BufferedWriter bufferedWriter;

@@ -4,7 +4,7 @@ import com.java.base.lang.domain.Person;
 
 import java.io.*;
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-5-15 上午11:16
  * 序列化
  */

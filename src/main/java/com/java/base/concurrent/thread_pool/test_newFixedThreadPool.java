@@ -3,7 +3,7 @@ package com.java.base.concurrent.thread_pool;
 import java.util.concurrent.*;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-31 下午6:35
  * 适用于：并发稳定的场景
  */

@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * Created by JianJie on 15/5/9.
+ * Created by jimjian on 15/5/9.
  */
 public class PropertiesUtil {
     private static Map<String,String> map=new HashMap<String,String>();

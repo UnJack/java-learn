@@ -10,7 +10,7 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-24 下午4:29
  */
 public class NIOClient {

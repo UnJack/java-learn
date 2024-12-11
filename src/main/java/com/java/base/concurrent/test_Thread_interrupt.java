@@ -1,7 +1,7 @@
 package com.java.base.concurrent;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-30 下午5:58
  * 线程阻塞中断
  */

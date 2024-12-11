@@ -8,7 +8,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- * Created by JianJie on 15/7/5.
+ * Created by jimjian on 15/7/5.
  */
 public class test_CopyFile extends FileUtil {
     public static void main(String[] args) throws Exception {

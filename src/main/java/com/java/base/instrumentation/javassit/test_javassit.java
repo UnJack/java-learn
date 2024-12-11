@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 
 /**
- * Created by jianjie on 2017/9/11.
+ * Created by jimjian on 2017/9/11.
  */
 public class test_javassit {
     public static void main(String[] args) throws Exception{
@@ -54,7 +54,7 @@ public class test_javassit {
 
         byte[] byteArr = ctClass.toBytecode();
 
-        FileOutputStream fileOutputStream =new FileOutputStream(new File("/Users/jianjie/itest/iGithub/Java/DynamiClass.class"));
+        FileOutputStream fileOutputStream =new FileOutputStream(new File("/Users/jimjian/itest/iGithub/Java/DynamiClass.class"));
         fileOutputStream.write(byteArr);
         fileOutputStream.close();
     }

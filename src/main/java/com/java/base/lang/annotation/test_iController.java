@@ -92,7 +92,7 @@ public class test_iController {
             Constructor constructor2 = clazz.getDeclaredConstructor(String.class);
             //获取私有权限
             constructor2.setAccessible(true);
-            iController iController2 = (iController) constructor2.newInstance("jianjie");
+            iController iController2 = (iController) constructor2.newInstance("jimjian");
             System.out.println("通过构造函数创建：" + iController2);
 
         } catch (ClassNotFoundException e) {

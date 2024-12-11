@@ -25,9 +25,9 @@ public class RedisTest extends TestBase {
         System.out.println("[string] = " + valueOperations.get("msg") + " [string.length] = " + valueOperations.size("msg"));
 
         ListOperations listOperations = redisTemplate.opsForList();
-        listOperations.leftPush("list", "jianjie1");
-        listOperations.rightPush("list", "jianjie2");
-        listOperations.set("list", 2, "jianjie3");
+        listOperations.leftPush("list", "jimjian1");
+        listOperations.rightPush("list", "jimjian2");
+        listOperations.set("list", 2, "jimjian3");
         List list = listOperations.range("list", 0, -1);
         for (Object object : list)
             System.out.println("[list] = " + object);
@@ -42,7 +42,7 @@ public class RedisTest extends TestBase {
             System.out.println("[set] = " + object);
 
         HashOperations hashOperations = redisTemplate.opsForHash();
-        hashOperations.put("hash", "name", "jianjie");
+        hashOperations.put("hash", "name", "jimjian");
         hashOperations.put("hash", "address", "北京市朝阳区国贸79");
         hashOperations.put("hash", "age", "24");
         Set set1 = hashOperations.keys("hash");

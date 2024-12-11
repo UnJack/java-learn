@@ -1,7 +1,7 @@
 package com.java.base.lang;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-1 下午4:38
  */
 public class test_Abstract {

@@ -9,7 +9,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-5-3 上午11:09
  * rpc远程调用原理，只有：函数参数和返回值是通过网络传送，类通过代理模式本地生成到jvm
  */

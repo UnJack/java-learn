@@ -3,7 +3,7 @@ package rpc;
 import rpc.service.HelloService;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-5-3 上午11:15
  * 服务消费者
  */

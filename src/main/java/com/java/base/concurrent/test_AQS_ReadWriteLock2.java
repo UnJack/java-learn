@@ -4,7 +4,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-31 下午2:18
  */
 public class test_AQS_ReadWriteLock2 {

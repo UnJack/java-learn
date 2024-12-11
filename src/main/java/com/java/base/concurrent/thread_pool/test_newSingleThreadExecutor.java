@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-5-20 下午10:50
  * 创建一个单线程化的线程池，它只会用唯一的工作线程来执行任务，
  * 保证所有任务按照指定顺序(FIFO, LIFO, 优先级)执行。

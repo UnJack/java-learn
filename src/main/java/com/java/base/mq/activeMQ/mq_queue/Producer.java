@@ -3,7 +3,7 @@ package com.java.base.mq.activeMQ.mq_queue;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import javax.jms.*;
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-4-20 下午4:26
  */
 public class Producer {

@@ -1,7 +1,7 @@
 package com.java.base.mq.activeMQ;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-12 下午5:00
  */
 

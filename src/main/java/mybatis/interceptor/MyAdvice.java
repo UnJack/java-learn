@@ -3,7 +3,7 @@ package mybatis.interceptor;
 import org.aspectj.lang.ProceedingJoinPoint;
 
 /**
- * @create by jianjie on 2017/11/04 14:18
+ * @create by jimjian on 2017/11/04 14:18
  **/
 public class MyAdvice {
 

@@ -1,7 +1,7 @@
 package com.java.base.arithmatic;
 
 /**
- * Created by JianJie on 2017/3/18.
+ * Created by jimjian on 2017/3/18.
  * 判断素数
  */
 public class test_prime {

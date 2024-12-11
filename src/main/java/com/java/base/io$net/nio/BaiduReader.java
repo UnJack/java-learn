@@ -7,7 +7,7 @@ import java.nio.channels.SocketChannel;
 import java.nio.charset.Charset;
 
 /**
- * Created by JianJie on 15/7/5.
+ * Created by jimjian on 15/7/5.
  */
 public class BaiduReader {
     private Charset charset = Charset.forName("GBK");// 创建GBK字符集

@@ -7,7 +7,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-31 下午4:35
  * 集合
  */

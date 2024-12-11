@@ -1,7 +1,7 @@
 package com.java.base.lang;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 15-12-14 Time: 下午4:21
  */
 public class test_String {

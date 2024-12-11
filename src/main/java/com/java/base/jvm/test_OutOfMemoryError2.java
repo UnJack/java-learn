@@ -1,7 +1,7 @@
 package com.java.base.jvm;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 15-12-23 Time: 下午4:13
  * VM args:-Xss2M
  * 堆溢出

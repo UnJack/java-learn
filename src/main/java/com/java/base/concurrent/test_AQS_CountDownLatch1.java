@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-3-24 上午10:24
  * 适用于等待结束的业务场景：
  * 一个线程等待另外n个线程完成某件事后才继续执行

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-6-14 下午5:09
  */
 public class test_Thread_ArrayList {

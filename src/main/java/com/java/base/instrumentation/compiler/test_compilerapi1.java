@@ -7,7 +7,7 @@ import java.io.*;
 public class test_compilerapi1 {
     public static void main(String args[]) throws IOException {
         JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
-        int results = compiler.run(null, null, null, "/Users/jianjie/itest/iGithub/Java/test.java");
+        int results = compiler.run(null, null, null, "/Users/jimjian/itest/iGithub/Java/test.java");
         System.out.println((results == 0) ? "编译成功" : "编译失败");
         // 在程式中运行test
         Runtime run = Runtime.getRuntime();

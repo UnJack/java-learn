@@ -7,7 +7,7 @@ package com.java.base.lang.annotation;
 @i$RequestMapping(value = "iController")
 public class iController {
 
-    @i$Value(value = "jianjie")
+    @i$Value(value = "jimjian")
     private String name;
 
     @i$Value(value = "25")

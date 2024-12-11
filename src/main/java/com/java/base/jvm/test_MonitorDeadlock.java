@@ -1,7 +1,7 @@
 package com.java.base.jvm;
 
 /**
- * User: jianjie
+ * User: jimjian
  * Date: 16-4-28 下午3:47
  * 死锁
  */

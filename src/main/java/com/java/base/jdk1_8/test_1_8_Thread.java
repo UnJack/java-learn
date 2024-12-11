@@ -1,7 +1,7 @@
 package com.java.base.jdk1_8;
 
 /**
- * Created by JianJie on 2017/8/19.
+ * Created by jimjian on 2017/8/19.
  * 1.8语法
  */
 public class test_1_8_Thread {
