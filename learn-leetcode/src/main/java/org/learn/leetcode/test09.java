@@ -1,8 +1,14 @@
 package org.learn.leetcode;
 
+/**
+ * 买卖股票的最佳时机
+ * <a href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/">
+ * https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/
+ * </a>
+ */
 public class test09 {
     public static void main(String[] args) {
-        int[] nums = {1, 3, -12333, 12333, 22, 0, -1};
+        int[] nums = {7, 1, 5, 3, 6, 4};
         int max = 0;
         int min = Integer.MAX_VALUE;
         for (int num : nums) {
