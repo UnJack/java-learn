@@ -1,13 +1,13 @@
-package com.java.base.arithmatic;
+package org.learn.leetcode;
 
 /**
- * Created by jian.jie on 2017/3/14.
+ * Created by jim on 2017/3/14.
  * 冒泡排序
  */
 public class test_bubbleSort {
     public static void main(String[] args) {
         int[] n = {23, 5, 668, 224, 1, 7, 3};
-        int temp = 0;
+        int temp;
         for (int i = 0; i < n.length - 1; i++) {
             for (int j = 0; j < n.length - i - 1; j++) {
                 if (n[j] > n[j + 1]) {

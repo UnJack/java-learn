@@ -1,7 +1,7 @@
-package com.java.base.arithmatic;
+package org.learn.leetcode;
 
 /**
- * Created by jian.jie on 2016/9/1.
+ * Created by jim on 2016/9/1.
  */
 public class test_binarySearch {
 

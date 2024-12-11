@@ -1,4 +1,4 @@
-package com.java.base.arithmatic;
+package org.learn.leetcode;
 
 import java.util.ArrayList;
 import java.util.List;

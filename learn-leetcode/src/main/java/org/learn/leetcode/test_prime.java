@@ -1,4 +1,4 @@
-package com.java.base.arithmatic;
+package org.learn.leetcode;
 
 /**
  * Created by jimjian on 2017/3/18.
