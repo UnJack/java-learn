@@ -1,7 +1,7 @@
 package com.java.base.concurrent;
 
 /**
- * Created by jian.jie on 2017/2/8.
+ * Created by jimjian on 2017/2/8.
  *  synchronzied锁重入
  *  happens -before 原理，监视器锁规则
  *  monitorenter

@@ -1,7 +1,7 @@
 package com.java.base.jvm.classLoader;
 
 /**
- * Created by jian.jie on 2016/8/26.
+ * Created by jimjian on 2016/8/26.
  *  Java 中的类加载器大致可以分成两类，一类是系统提供的，另外一类则是由 Java 应用开发人员编写的。
  *  系统提供的类加载器主要有下面三个：
  *  引导类加载器（bootstrap class loader）：它用来加载 Java 的核心库，是用原生代码来实现的，并不继承自 java.lang.ClassLoader。C/C++写的

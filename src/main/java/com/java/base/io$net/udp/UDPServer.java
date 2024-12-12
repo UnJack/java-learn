@@ -6,7 +6,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 /**
- * Created by jian.jie on 2017/3/3.
+ * Created by jimjian on 2017/3/3.
  * http://blog.csdn.net/qq_23473123/article/details/51464272
  * 服务器端，实现基于UDP的用户登陆
  */

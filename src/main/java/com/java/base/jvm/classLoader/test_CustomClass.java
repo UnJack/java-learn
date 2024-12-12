@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Created by jian.jie on 2016/10/26.
+ * Created by jimjian on 2016/10/26.
  * 自定义类加载器测试类
  */
 public class test_CustomClass {

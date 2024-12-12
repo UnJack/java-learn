@@ -4,7 +4,7 @@ import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 /**
- * Created by jian.jie on 2016/10/26.
+ * Created by jimjian on 2016/10/26.
  * 自定义类加载器,加载.class文件
  */
 public class CustomClassLoader extends ClassLoader {

@@ -1,7 +1,7 @@
 package com.java.base.jvm;
 
 /**
- * Created by jian.jie on 2016/11/16.
+ * Created by jimjian on 2016/11/16.
  * http://ifeve.com/a-simple-example-demo-jvm-allocation-and-gc/
  */
 public class test_Gc {

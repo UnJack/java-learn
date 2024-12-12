@@ -1,7 +1,7 @@
 package org.learn.leetcode;
 
 /**
- * Created by jim on 2017/3/14.
+ * Created by jimjian on 2017/3/14.
  * 冒泡排序
  */
 public class test_bubbleSort {

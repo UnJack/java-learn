@@ -1,5 +1,8 @@
 package org.learn.design.strategy_pattern;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * User: jimjian
  * Date: 16-3-23 下午3:47
@@ -7,17 +10,13 @@ package org.learn.design.strategy_pattern;
  */
 public class test_StrategyPattern {
 
-    public static void main(String args[]){
-        HardPolice hp = new HardPolice();
-        NicePolice ep = new NicePolice();
+    public static void main(String[] args) {
+        LoginHandler<String> loginHandler = new QQLoginHandler();
+        LoginHandler<String> loginHandler1 = new WeChatLoginHandler();
+        loginHandler.handleLogin("1");
+        loginHandler1.handleLogin("2");
 
-        // In situation 1, a hard officer is met
-        // In situation 2, a nice officer is met
-        Situation s1 = new Situation(hp);
-        Situation s2 = new Situation(ep);
-
-        //the result based on the kind of police officer.
-        s1.handleByPolice(10);
-        s2.handleByPolice(10);
+        Map<Integer, LoginHandler<String>> map = new HashMap<>();
+        map.put(1, new QQLoginHandler());
     }
 }

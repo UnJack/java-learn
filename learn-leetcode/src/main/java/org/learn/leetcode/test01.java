@@ -14,8 +14,8 @@ public class test01 {
     public static void main(String[] args) {
         int[] nums = {2, 11, 11, 7, 15};
         int target = 9;
-//        sum0(nums, target);
-        sum1(nums, target);
+        sum0(nums, target);
+//        sum1(nums, target);
     }
 
     public static void sum0(int[] nums, int target) {

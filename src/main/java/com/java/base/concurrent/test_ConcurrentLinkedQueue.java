@@ -4,7 +4,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * Created by jian.jie on 2016/9/1.
+ * Created by jimjian on 2016/9/1.
  * 无锁队列
  */
 public class test_ConcurrentLinkedQueue {

@@ -1,7 +1,7 @@
 package com.java.base.lang;
 
 /**
- * Created by jian.jie on 2016/9/21.
+ * Created by jimjian on 2016/9/21.
  */
 public class test_Enum {
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ package com.java.base.lang.domain;
 import java.io.Serializable;
 
 /**
- * Created by jian.jie on 2016/8/26.
+ * Created by jimjian on 2016/8/26.
  */
 public class Person implements Serializable {
 

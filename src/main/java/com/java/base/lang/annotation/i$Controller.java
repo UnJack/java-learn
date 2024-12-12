@@ -3,7 +3,7 @@ package com.java.base.lang.annotation;
 import java.lang.annotation.*;
 
 /**
- * Created by jian.jie on 2016/8/26.
+ * Created by jimjian on 2016/8/26.
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)

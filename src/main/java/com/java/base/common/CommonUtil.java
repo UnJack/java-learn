@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by jian.jie on 2016/10/20.
+ * Created by jimjian on 2016/10/20.
  */
 public class CommonUtil {
     public static boolean isMobileNO(String mobiles) {

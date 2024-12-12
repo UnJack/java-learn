@@ -1,7 +1,7 @@
 package com.java.base.jvm.classLoader;
 
 /**
- * Created by jian.jie on 2016/10/20.
+ * Created by jimjian on 2016/10/20.
  */
 public class test_Class$forName {
     public static void main(String[] args) throws ClassNotFoundException {

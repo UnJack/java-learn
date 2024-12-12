@@ -1,7 +1,7 @@
 package com.java.base.lang;
 
 /**
- * Created by jian.jie on 2017/3/13.
+ * Created by jimjian on 2017/3/13.
  * 执行顺序：静态代码块>构造代码块>构造函数
  */
 public class test_Static {

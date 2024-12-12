@@ -11,6 +11,9 @@
     <modules>
         <module>learn-design-pattern</module>
         <module>learn-leetcode</module>
+        <module>learn-redis</module>
+        <module>learn-mybatis</module>
+        <module>learn-zookeeper</module>
     </modules>
 
     <properties>
@@ -259,6 +262,15 @@
             <artifactId>asm-tree</artifactId>
             <version>3.3.1</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.36</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>

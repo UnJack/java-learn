@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by jian.jie on 2016/10/31.
+ * Created by jimjian on 2016/10/31.
  */
 public class test_iController {
 

@@ -1,7 +1,7 @@
 package com.java.base.jvm.classLoader;
 
 /**
- * Created by jian.jie on 2016/10/26.
+ * Created by jimjian on 2016/10/26.
  */
 public class Person implements Human{
 

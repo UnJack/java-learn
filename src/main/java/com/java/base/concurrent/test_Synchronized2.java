@@ -1,7 +1,7 @@
 package com.java.base.concurrent;
 
 /**
- * Created by jian.jie on 2017/2/8.
+ * Created by jimjian on 2017/2/8.
  */
 public class test_Synchronized2 {
 

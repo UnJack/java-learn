@@ -1,7 +1,7 @@
 package org.learn.leetcode;
 
 /**
- * Created by jim on 2016/9/1.
+ * Created by jimjian on 2016/9/1.
  */
 public class test_binarySearch {
 

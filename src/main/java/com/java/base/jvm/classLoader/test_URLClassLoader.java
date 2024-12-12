@@ -8,7 +8,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 
 /**
- * Created by jian.jie on 2016/10/26.
+ * Created by jimjian on 2016/10/26.
  */
 public class test_URLClassLoader {
     public static void main(String[] args) {
