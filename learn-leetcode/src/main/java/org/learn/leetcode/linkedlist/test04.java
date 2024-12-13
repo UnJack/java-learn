@@ -5,6 +5,7 @@ import org.learn.leetcode.common.TreeNodeFactory;
 
 /**
  * @link 合并两个有序链表
+ * </br>
  * <a href="https://leetcode.cn/problems/merge-two-sorted-lists/submissions/586030260/">
  * https://leetcode.cn/problems/merge-two-sorted-lists/submissions/586030260/
  * </a>
@@ -20,6 +21,13 @@ public class test04 {
         }
     }
 
+    /**
+     * 合并链表
+     *
+     * @param head1
+     * @param head2
+     * @return
+     */
     public static LinkedListNode<Integer> mergeNode(LinkedListNode<Integer> head1, LinkedListNode<Integer> head2) {
         if (head1 == null) {
             return head2;

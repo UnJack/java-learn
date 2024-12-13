@@ -1,6 +1,5 @@
 package org.learn.leetcode.btree;
 
-
 import org.learn.leetcode.common.TreeNode;
 import org.learn.leetcode.common.TreeNodeFactory;
 
@@ -10,7 +9,8 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * @link 后序遍历
+ * @link 后序遍历，左右根
+ * </br>
  * <a href="https://leetcode.cn/problems/binary-tree-postorder-traversal/description/">
  * https://leetcode.cn/problems/binary-tree-postorder-traversal/description/
  * </a>

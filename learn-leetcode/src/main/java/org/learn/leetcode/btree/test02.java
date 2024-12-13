@@ -4,13 +4,12 @@ import org.learn.leetcode.common.TreeNode;
 import org.learn.leetcode.common.TreeNodeFactory;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.Stack;
 
 /**
- * @link 中序遍历
+ * @link 中序遍历，左根右
+ * </br>
  * <a href="https://leetcode.cn/problems/binary-tree-inorder-traversal/description/">
  * https://leetcode.cn/problems/binary-tree-inorder-traversal/description/
  * </a>

@@ -6,7 +6,7 @@ package org.learn.leetcode;
  */
 public class test_quickSort {
     public static void main(String[] args) {
-        int arr[] = {3, 1, 5, 7, 2, 4, 9, 6, 10, 8};
+        int[] arr = {3, 1, 5, 7, 2, 4, 9, 6, 10, 8};
         sort(arr, 0, arr.length - 1);
         for (Integer i : arr)
             System.out.print(i + " ");

@@ -6,13 +6,13 @@ package org.learn.leetcode;
 public class test_binarySearch {
 
     public static void main(String[] args) {
-        int arrays[] = {2, 8, 10, 16, 64, 512, 1024};
+        int[] arrays = {2, 8, 10, 16, 64, 512, 1024};
         System.out.println(BinSearch(arrays, 10));
         System.out.println(BinSearch(arrays, 0, arrays.length - 1, 10));
-
     }
 
     /**
+     *
      * @param arr
      * @param tag
      * @return

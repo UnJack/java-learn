@@ -5,18 +5,17 @@ import org.learn.leetcode.common.TreeNodeFactory;
 
 /**
  * @link 删除链表的倒数第N个节点
+ * </br>
  * <a href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list/">
  * https://leetcode.cn/problems/remove-nth-node-from-end-of-list/
  * </a>
  */
 public class test03 {
+
     public static void main(String[] args) {
 //        10->11->12->13->14->15->16
         LinkedListNode<Integer> head = TreeNodeFactory.getLinkedListNode();
-//        删除倒数的第n个节点
         LinkedListNode<Integer> current = removeNthFromEnd(head, 2);
-//        删除第n个节点
-//        LinkedListNode<Integer> current = deleteNode(head, 2);
         while (current != null) {
             System.out.print(current.getData() + "->");
             current = current.getNext();

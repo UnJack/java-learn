@@ -17,7 +17,8 @@ public class test_bubbleSort {
                 }
             }
         }
-        for (int i = 0; i < n.length - 1; i++)
+        for (int i = 0; i < n.length - 1; i++) {
             System.out.println(n[i]);
+        }
     }
 }

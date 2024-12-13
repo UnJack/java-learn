@@ -1,6 +1,5 @@
 package org.learn.leetcode.common;
 
-
 public class TreeNodeFactory {
 
     public static TreeNode<Integer> getTreeNode() {

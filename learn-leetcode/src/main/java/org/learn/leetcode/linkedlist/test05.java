@@ -62,6 +62,11 @@ public class test05 {
         return head;
     }
 
+    /**
+     * 删除节点
+     *
+     * @param node
+     */
     public static void deleteNode2(LinkedListNode<Integer> node) {
         node.setData(node.getNext().getData());
         node.setNext(node.getNext().getNext());

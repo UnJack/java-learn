@@ -11,40 +11,37 @@ public class test_fibonacciSequence {
 
     public static void main(String[] args) {
         for (int i = 0; i < 9; i++) {
-            System.out.print(fibonacci(i) + " ");
+            System.out.print(fibonacci1(i) + " ");
         }
-        System.out.println();
-        for (Integer integer : fibonacci$(9)) {
-            System.out.print(integer + " ");
-        }
-
     }
 
     /**
      * 递归
+     *
      * @param num
      * @return
      */
-    public static int fibonacci(int num) {
+    public static int fibonacci1(int num) {
         if (num < 0) {
             return -1;
         }
         if (num == 0 || num == 1) {
-            return 1;
+            return num;
         }
-        return fibonacci(num - 1) + fibonacci(num - 2);
+        return fibonacci1(num - 1) + fibonacci1(num - 2);
     }
 
     /**
      * 非递归
+     *
      * @param num
      * @return
      */
-    public static List<Integer> fibonacci$(int num) {
+    public static List<Integer> fibonacci2(int num) {
         if (num < 0) {
             return null;
         }
-        List<Integer> list = new ArrayList();
+        List<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(1);
         for (int i = 2; i < num; i++) {

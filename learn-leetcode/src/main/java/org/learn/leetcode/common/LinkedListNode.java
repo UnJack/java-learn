@@ -2,6 +2,11 @@ package org.learn.leetcode.common;
 
 import lombok.Data;
 
+/**
+ * 链表节点
+ *
+ * @param <T>
+ */
 @Data
 public class LinkedListNode<T> {
 
