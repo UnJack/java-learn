@@ -10,7 +10,7 @@ package org.learn.leetcode;
  * https://leetcode.cn/problems/spiral-matrix/description/
  * </a>
  */
-public class test_spiral_matrix_print {
+public class test_matrix_spiral_print {
 
     public static void main(String[] args) {
         int[][] matrix = {
