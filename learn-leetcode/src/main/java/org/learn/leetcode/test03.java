@@ -4,6 +4,7 @@ package org.learn.leetcode;
  * 回文数
  */
 public class test03 {
+
     public static void main(String[] args) {
         int num = 4;
         System.out.println(isPalindrome(num));

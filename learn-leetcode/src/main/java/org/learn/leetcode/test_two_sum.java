@@ -10,7 +10,7 @@ import java.util.Map;
  * https://leetcode.cn/problems/two-sum/description/
  * </a>
  */
-public class test01 {
+public class test_two_sum {
 
     public static void main(String[] args) {
         int[] nums = {2, 11, 11, 7, 15};
